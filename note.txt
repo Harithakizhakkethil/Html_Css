@@ -1,0 +1,201 @@
+HTML-HyperText Markup Language
+-----------------------------
+-markup Language-Tag based
+-tag- <tagname>
+
+How to create HTML FILE
+    -name of the file should start with character
+    -if the name contains more than one word then don't put space between them
+    otherwise add underscore between the words
+    -extension- .html
+
+BASIC STRUCTURE
+---------------
+<html>    Opening Tag
+<head>
+<title> title of HTML file</title>
+</head>
+<body>
+    content
+</body>
+</html>   closing tag
+
+latest version - HTML5
+
+how to load basic structure of HTML 5
+1)html:5
+2)shift + 1 => ! then enter
+
+Tags in html
+------------
+1)heading tag   
+    <h1>  </h1> - largest tag
+        <h2>  </h2>
+            <h3>  </h3>
+                <h4>  </h4>
+                    <h5>  </h5>
+                        <h6>  </h6> -smallest tag
+
+2)paragraph tag
+<p></p>
+
+3)link
+    <a></a> - anchor Tags
+    href:HyperText Reference
+
+    attribute = it is used to give additional information
+    about the tag
+        eg href,target
+<b> - Bold Text
+<strong> - important Text
+<i> - italic Text
+<em> - emphasized Text
+<mark> - marked Text
+<small> - smaller Text
+<del> - deleted Text
+<ins> - inserted text 
+<sub> - subscript text
+<sup> - superscript text
+
+4)<!-- comment --> comment tag - it increases readability
+cannot be seen in the browser
+(shift + alt + a) (<!--  -->)
+
+5)image/picture
+<img> - only opening tag
+
+6)horizontal line
+<hr/>  - self closing tags.
+
+**7)<figure> - to place images in the webpage - HTML5 updates
+<figure>
+<figcaption>
+</figure>
+
+**8)<video> - to place videos in the webpage - HTML5 updates
+
+9)iframe- to place videos from youtube - HTML5 updates
+10) audio tag -
+to place audios in the webpage - HTML5 updates
+
+CSS - CASCADING STYLE SHEET
+-to give style to html element
+
+Different methods of using CSS
+------------------------------
+1)Inline CSS - css properties are place inside the html opening tags
+2)Internal CSS - css properties are place inside a style tag, and this style tag is place inside the html head tag document
+3)External CSS - create an external file with .css as extension and css properties are mentioned inside this external file.
+  this external file is linked to the html file using link tag.
+    
+external css is prefered bcz
+    1)can used multiple times
+    2)reduce complexity of the html page
+    3) reduce loading time of html page
+
+better : external>internal>Inline
+Dominants : Inline>Internal>External 
+
+
+inline - syntax
+---------------
+<tagname style="property:value"></tagname>
+
+different type of selectors
+---------------------------
+1) tag selector - select the tag for styling
+2) id selector - to style uniquely
+3)class selector - to style group 
+4)universal selector - to style full document - represented using * 
+  ( *{  }) 
+5)descendant selector - parent space child
+
+
+CSS box model   (very important)
+-------------
+1) margin - space between border and outer space
+    - margin-top
+    - margin-bottom
+    - margin-left
+    - margin-right
+
+    margin: top right bottom left  (clockwise direction)
+    margin:30px 40px 10px 20px
+
+    margin: top/bottom   left/right
+if top=30px
+    right=40px
+    bottom=30px
+    left=40px
+    
+then    margin: 30px 40px
+
+2) padding - space between border and content
+    -padding-top
+    -padding-bottom
+    -padding-left
+    -padding-right
+3) border - line drawn around the content
+
+
+div tag
+-------
+div - to create divisions
+    - cannot seen by default. we should style it
+    - next div tag will come next line only - line by line
+
+header tag
+---------
+<header> - header element represent a container for introductory content.
+         - header tag cannot be represent in footer tag
+
+media query
+-----------
+->used to make a website responsive 
+
+->universal sizes:
+    Typical Device Breakpoints
+    There are tons of screens and devices with different heights and widths, so it is hard to create an exact breakpoint for each device. To keep things simple you could target five groups:
+
+    Example
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {...}
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {...}
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {...}
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {...}
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {...}
+
+    syntax
+    ------
+    @media (expression){
+        selector{
+            property:value
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

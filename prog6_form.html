@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    
+    <form>
+    <!--to create label and input box  -->
+        <label for="fn">First Name : </label>
+        <input id="fn" type="text" placeholder="please enter First Name"><br><br>
+        
+        <label for="sn">Second Name : </label>
+        <input id="sn" type="text" placeholder="please enter Second Name"><br> <br>
+        
+        <label for="un">Username : </label>
+        <input id="un" type="text" placeholder="please enter username"><br><br>
+        
+        <label for="ps">Password : </label>
+        <input id="ps" type="password" placeholder="please enter password"><br><br>
+        
+        <label for="mail">Email ID : </label>
+        <input id="mail" type="email" placeholder="please enter email id"><br><br>
+
+        <label for="dob"> Date of Birth : </label>
+        <input item id="dob" type="date"><br><br>
+
+        <label for="add">Address</label>
+        <textarea  id="add" cols="30" rows="10"></textarea><br><br>
+
+        <label for="">Upload your certificate</label>
+        <input type="file"><br> <br>
+
+        <!-- radio buttons -->
+        <label>Gender</label><br><br>
+        <input name="gender" type="radio">
+        <label>Male</label><br><br>
+        
+        <input  name="gender" type="radio">
+        <label>Female</label><br><br>
+        
+        <input  name="gender" type="radio">
+        <label>Others</label><br><br>
+
+        <!-- checkbox (more than one input box) -->
+        <label>CheckBox</label><br><br>
+        <input name="flowers" type="checkbox">
+        <label >Rose</label><br><br>
+
+        <input name="flowers" type="checkbox">
+        <label>Jasmine</label><br><br>
+
+        <input name="flowers" type="checkbox">
+        <label>Lilly</label><br><br>
+
+        <!-- Tag to select item -->
+        <label for="">Choose your subject from the dropdown list</label>
+        <select>
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="Humanities">Humanities</option>
+         
+        </select><br><br>
+
+        <!-- to choose multiple options -->
+
+        <label for="">Choose your subject from the dropdown list</label>
+        <select multiple>
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="Humanities">Humanities</option>
+         
+        </select><br><br>
+
+        <!-- type - number -->
+        <label for="">Number of Attempt</label>
+        <input type="number" max="5" min="2"><br><br>
+
+        <button>submit</button>
+
+
+    </form>
+ 
+  
+</body>
+</html>

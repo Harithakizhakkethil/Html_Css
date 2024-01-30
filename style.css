@@ -1,0 +1,14 @@
+h3{
+    color: brown;
+    background-color: blanchedalmond;
+    font-size: 50px;
+}
+#para2{ 
+    color: red;
+    background-color: blueviolet; 
+}/*for id we use # before id name.*/
+
+.para{
+    font-size: 40px;
+} /* for class we use . before class name*/
+
